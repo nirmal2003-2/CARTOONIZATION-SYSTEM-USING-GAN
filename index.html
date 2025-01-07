@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Cartoonization</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Video Cartoonization</h1>
+      <p>Transform your videos into stunning cartoon-style animations using GAN!</p>
+    </header>
+
+    <section class="upload-section">
+      <div class="upload-box" onclick="document.getElementById('videoInput').click()">
+        <span>Click or Drag & Drop to Upload a Video</span>
+      </div>
+      <input type="file" id="videoInput" accept="video/*" style="display: none;" onchange="handleVideoUpload(event)">
+    </section>
+
+    <section id="videoPreview" class="preview-section" style="display: none;">
+      <h2>Uploaded Video</h2>
+      <video id="inputVideo" controls></video>
+      <button class="btn" onclick="processVideo()">🎥 Cartoonize Video</button>
+    </section>
+
+    <section id="outputVideoSection" class="preview-section" style="display: none;">
+      <h2>Cartoonized Video</h2>
+      <video id="outputVideo" controls></video>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 CartoonizeAI | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
