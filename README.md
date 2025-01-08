@@ -1,5 +1,4 @@
-This project takes on the problem of transferring
-the style of cartoon images to real-life photographic images by
-implementing previous work done by CartoonGAN. We trained
-a Generative Adversial Network(GAN) on over 60 000 images
-from works by Hayao Miyazaki at Studio Ghibli.
+Abstract: Video Cartoonization System
+The Video Cartoonization System aims to transform real-world video content into cartoon-like representations, offering a novel approach to creating visually engaging animations. This project leverages advanced techniques, including Generative Adversarial Networks (GANs) and OpenCV-based image processing, to achieve high-quality cartoonization effects.
+
+Designed with user accessibility in mind, the system enables individuals to upload videos, adjust customizable parameters, and seamlessly generate cartoon-style outputs. By integrating state-of-the-art technology with an intuitive user interface, the project aspires to redefine video editing and animation creation for diverse applications.
